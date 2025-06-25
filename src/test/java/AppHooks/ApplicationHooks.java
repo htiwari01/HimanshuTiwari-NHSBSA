@@ -11,14 +11,14 @@ public class ApplicationHooks {
 	private WebDriver driver;
 	
 	
-	@Before(order = 1)
+	@Before()
 	public void launchBrowser() {
 		driverFactory = new DriverFactory();
 		driver = driverFactory.init_driver();
 		
 	}
 	
-	@After(order = 0)
+	@After()
 	public void quitBrowser() {
 		driver.quit();
 	}

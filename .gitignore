@@ -1,0 +1,14 @@
+# Maven output
+/target/
+
+# Hidden or IDE-related files
+.mvn/
+.settings/
+.classpath
+.project
+.idea/
+*.iml
+
+# System files
+.DS_Store
+Thumbs.db

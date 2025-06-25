@@ -1,4 +1,3 @@
-@job_search
 Feature: Job Search Page Feature
 
   Scenario: Basic job search
