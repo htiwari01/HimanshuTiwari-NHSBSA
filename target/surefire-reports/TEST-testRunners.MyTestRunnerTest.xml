@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="testRunners.MyTestRunnerTest" time="25.292" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="testRunners.MyTestRunnerTest" time="22.461" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="webdriver.chrome.driver" value="/Users/himanshutiwari/.cache/selenium/chromedriver/mac-arm64/138.0.7204.49/chromedriver"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/himanshutiwari/Documents/NHS-AUTO-TEST/test.automation/target/surefire/surefirebooter-20250625143010394_3.jar /Users/himanshutiwari/Documents/NHS-AUTO-TEST/test.automation/target/surefire 2025-06-25T14-30-10_341-jvmRun1 surefire-20250625143010394_1tmp surefire_0-20250625143010394_2tmp"/>
+    <property name="sun.java.command" value="/Users/himanshutiwari/Documents/NHS-AUTO-TEST/test.automation/target/surefire/surefirebooter-20250625161525133_3.jar /Users/himanshutiwari/Documents/NHS-AUTO-TEST/test.automation/target/surefire 2025-06-25T16-15-25_082-jvmRun1 surefire-20250625161525133_1tmp surefire_0-20250625161525133_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/himanshutiwari/Documents/NHS-AUTO-TEST/test.automation/target/test-classes:/Users/himanshutiwari/Documents/NHS-AUTO-TEST/test.automation/target/classes:/Users/himanshutiwari/.m2/repository/io/cucumber/cucumber-java/7.23.0/cucumber-java-7.23.0.jar:/Users/himanshutiwari/.m2/repository/io/cucumber/cucumber-core/7.23.0/cucumber-core-7.23.0.jar:/Users/himanshutiwari/.m2/repository/io/cucumber/cucumber-gherkin/7.23.0/cucumber-gherkin-7.23.0.jar:/Users/himanshutiwari/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.23.0/cucumber-gherkin-messages-7.23.0.jar:/Users/himanshutiwari/.m2/repository/io/cucumber/gherkin/32.1.1/gherkin-32.1.1.jar:/Users/himanshutiwari/.m2/repository/io/cucumber/messages/27.2.0/messages-27.2.0.jar:/Users/himanshutiwari/.m2/repository/io/cucumber/testng-xml-formatter/0.3.1/testng-xml-formatter-0.3.1.jar:/Users/himanshutiwari/.m2/repository/io/cucumber/query/13.3.0/query-13.3.0.jar:/Users/himanshutiwari/.m2/repository/io/cucumber/tag-expressions/6.1.2/tag-expressions-6.1.2.jar:/Users/himanshutiwari/.m2/repository/io/cucumber/cucumber-expressions/18.0.1/cucumber-expressions-18.0.1.jar:/Users/himanshutiwari/.m2/repository/io/cucumber/datatable/7.23.0/datatable-7.23.0.jar:/Users/himanshutiwari/.m2/repository/io/cucumber/cucumber-plugin/7.23.0/cucumber-plugin-7.23.0.jar:/Users/himanshutiwari/.m2/repository/io/cucumber/docstring/7.23.0/docstring-7.23.0.jar:/Users/himanshutiwari/.m2/repository/io/cucumber/html-formatter/21.10.1/html-formatter-21.10.1.jar:/Users/himanshutiwari/.m2/repository/io/cucumber/junit-xml-formatter/0.7.1/junit-xml-formatter-0.7.1.jar:/Users/himanshutiwari/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/Users/himanshutiwari/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/himanshutiwari/.m2/repository/io/cucumber/cucumber-junit/7.20.1/cucumber-junit-7.20.1.jar:/Users/himanshutiwari/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/himanshutiwari/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/himanshutiwari/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.13.1/junit-jupiter-api-5.13.1.jar:/Users/himanshutiwari/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/himanshutiwari/.m2/repository/org/junit/platform/junit-platform-commons/1.13.1/junit-platform-commons-1.13.1.jar:/Users/himanshutiwari/.m2/repository/org/seleniumhq/selenium/selenium-java/4.33.0/selenium-java-4.33.0.jar:/Users/himanshutiwari/.m2/repository/org/seleniumhq/selenium/selenium-api/4.33.0/selenium-api-4.33.0.jar:/Users/himanshutiwari/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/himanshutiwari/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.33.0/selenium-chrome-driver-4.33.0.jar:/Users/himanshutiwari/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/himanshutiwari/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.33.0/selenium-chromium-driver-4.33.0.jar:/Users/himanshutiwari/.m2/repository/org/seleniumhq/selenium/selenium-json/4.33.0/selenium-json-4.33.0.jar:/Users/himanshutiwari/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.33.0/selenium-manager-4.33.0.jar:/Users/himanshutiwari/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v135/4.33.0/selenium-devtools-v135-4.33.0.jar:/Users/himanshutiwari/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v136/4.33.0/selenium-devtools-v136-4.33.0.jar:/Users/himanshutiwari/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v137/4.33.0/selenium-devtools-v137-4.33.0.jar:/Users/himanshutiwari/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.33.0/selenium-edge-driver-4.33.0.jar:/Users/himanshutiwari/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.33.0/selenium-firefox-driver-4.33.0.jar:/Users/himanshutiwari/.m2/repository/org/seleniumhq/selenium/selenium-http/4.33.0/selenium-http-4.33.0.jar:/Users/himanshutiwari/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.33.0/selenium-ie-driver-4.33.0.jar:/Users/himanshutiwari/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.33.0/selenium-remote-driver-4.33.0.jar:/Users/himanshutiwari/.m2/repository/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.jar:/Users/himanshutiwari/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/himanshutiwari/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/himanshutiwari/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/himanshutiwari/.m2/repository/io/opentelemetry/opentelemetry-api/1.50.0/opentelemetry-api-1.50.0.jar:/Users/himanshutiwari/.m2/repository/io/opentelemetry/opentelemetry-context/1.50.0/opentelemetry-context-1.50.0.jar:/Users/himanshutiwari/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.50.0/opentelemetry-exporter-logging-1.50.0.jar:/Users/himanshutiwari/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.50.0/opentelemetry-sdk-common-1.50.0.jar:/Users/himanshutiwari/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.50.0/opentelemetry-sdk-extension-autoconfigure-spi-1.50.0.jar:/Users/himanshutiwari/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.50.0/opentelemetry-sdk-extension-autoconfigure-1.50.0.jar:/Users/himanshutiwari/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.50.0/opentelemetry-sdk-trace-1.50.0.jar:/Users/himanshutiwari/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.50.0/opentelemetry-sdk-1.50.0.jar:/Users/himanshutiwari/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.50.0/opentelemetry-sdk-metrics-1.50.0.jar:/Users/himanshutiwari/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.50.0/opentelemetry-sdk-logs-1.50.0.jar:/Users/himanshutiwari/.m2/repository/net/bytebuddy/byte-buddy/1.17.5/byte-buddy-1.17.5.jar:/Users/himanshutiwari/.m2/repository/org/seleniumhq/selenium/selenium-os/4.33.0/selenium-os-4.33.0.jar:/Users/himanshutiwari/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/himanshutiwari/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.33.0/selenium-safari-driver-4.33.0.jar:/Users/himanshutiwari/.m2/repository/org/seleniumhq/selenium/selenium-support/4.33.0/selenium-support-4.33.0.jar:/Users/himanshutiwari/.m2/repository/io/github/bonigarcia/webdrivermanager/6.1.0/webdrivermanager-6.1.0.jar:/Users/himanshutiwari/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/Users/himanshutiwari/.m2/repository/com/google/code/gson/gson/2.13.0/gson-2.13.0.jar:/Users/himanshutiwari/.m2/repository/com/google/errorprone/error_prone_annotations/2.37.0/error_prone_annotations-2.37.0.jar:/Users/himanshutiwari/.m2/repository/com/github/docker-java/docker-java/3.5.0/docker-java-3.5.0.jar:/Users/himanshutiwari/.m2/repository/com/github/docker-java/docker-java-core/3.5.0/docker-java-core-3.5.0.jar:/Users/himanshutiwari/.m2/repository/com/github/docker-java/docker-java-api/3.5.0/docker-java-api-3.5.0.jar:/Users/himanshutiwari/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.3/jackson-annotations-2.18.3.jar:/Users/himanshutiwari/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.3/jackson-databind-2.18.3.jar:/Users/himanshutiwari/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.3/jackson-core-2.18.3.jar:/Users/himanshutiwari/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/himanshutiwari/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.5.0/docker-java-transport-httpclient5-3.5.0.jar:/Users/himanshutiwari/.m2/repository/com/github/docker-java/docker-java-transport/3.5.0/docker-java-transport-3.5.0.jar:/Users/himanshutiwari/.m2/repository/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar:/Users/himanshutiwari/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/himanshutiwari/.m2/repository/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar:/Users/himanshutiwari/.m2/repository/org/apache/commons/commons-compress/1.27.1/commons-compress-1.27.1.jar:/Users/himanshutiwari/.m2/repository/commons-codec/commons-codec/1.17.1/commons-codec-1.17.1.jar:/Users/himanshutiwari/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/Users/himanshutiwari/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.4.3/httpclient5-5.4.3.jar:/Users/himanshutiwari/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.3.4/httpcore5-5.3.4.jar:/Users/himanshutiwari/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.3.4/httpcore5-h2-5.3.4.jar:/Users/himanshutiwari/.m2/repository/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar:/Users/himanshutiwari/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/himanshutiwari/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/himanshutiwari/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/himanshutiwari/.m2/repository/io/cucumber/cucumber-testng/7.20.1/cucumber-testng-7.20.1.jar:/Users/himanshutiwari/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/3.5.3/maven-surefire-plugin-3.5.3.jar:/Users/himanshutiwari/.m2/repository/org/apache/maven/surefire/surefire-api/3.5.3/surefire-api-3.5.3.jar:/Users/himanshutiwari/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.5.3/surefire-logger-api-3.5.3.jar:/Users/himanshutiwari/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.5.3/surefire-shared-utils-3.5.3.jar:/Users/himanshutiwari/.m2/repository/org/apache/maven/surefire/surefire-extensions-api/3.5.3/surefire-extensions-api-3.5.3.jar:/Users/himanshutiwari/.m2/repository/org/apache/maven/surefire/maven-surefire-common/3.5.3/maven-surefire-common-3.5.3.jar:/Users/himanshutiwari/.m2/repository/org/apache/maven/surefire/surefire-booter/3.5.3/surefire-booter-3.5.3.jar:/Users/himanshutiwari/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.5.3/surefire-extensions-spi-3.5.3.jar:/Users/himanshutiwari/.m2/repository/org/apache/maven/resolver/maven-resolver-util/1.4.1/maven-resolver-util-1.4.1.jar:/Users/himanshutiwari/.m2/repository/org/apache/maven/resolver/maven-resolver-api/1.4.1/maven-resolver-api-1.4.1.jar:/Users/himanshutiwari/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.4.0/maven-common-artifact-filters-3.4.0.jar:/Users/himanshutiwari/.m2/repository/org/codehaus/plexus/plexus-java/1.4.0/plexus-java-1.4.0.jar:/Users/himanshutiwari/.m2/repository/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar:/Users/himanshutiwari/.m2/repository/com/thoughtworks/qdox/qdox/2.2.0/qdox-2.2.0.jar:"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/himanshutiwari/Documents/NHS-AUTO-TEST/test.automation/target/surefire/surefirebooter-20250625143010394_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/himanshutiwari/Documents/NHS-AUTO-TEST/test.automation/target/surefire/surefirebooter-20250625161525133_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21.0.7+8-LTS-245"/>
@@ -41,7 +41,6 @@
     <property name="os.version" value="15.5"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="browser" value="chrome"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="/Users/himanshutiwari/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
@@ -60,7 +59,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="Basic job search" classname="Job Search Page Feature" time="5.902">
+  <testcase name="Basic job search" classname="Job Search Page Feature" time="5.222">
     <system-out><![CDATA[
 @job_search
 Scenario: Basic job search                                      &amp#27;[90m# src/test/resources/com.features/JobSearchPage.feature:4&amp#27;[0m
@@ -76,11 +75,11 @@ Browser value is : chrome
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Jun 25, 2025 2:30:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 25, 2025 4:15:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
 ]]></system-err>
   </testcase>
-  <testcase name="Job search without Job Title value" classname="Job Search Page Feature" time="4.218">
+  <testcase name="Job search without Job Title value" classname="Job Search Page Feature" time="3.76">
     <system-out><![CDATA[
 @job_search
 Scenario: Job search without Job Title value               &amp#27;[90m# src/test/resources/com.features/JobSearchPage.feature:14&amp#27;[0m
@@ -93,11 +92,11 @@ Browser value is : chrome
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI sort my search results with the newest Date Posted&amp#27;[0m &amp#27;[90m# stepdefinitions.JobSearchResultPageSteps.i_sort_my_search_results_with_the_newest_Date_Posted()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should get a list of jobs with town preferences&amp#27;[0m   &amp#27;[90m# stepdefinitions.JobSearchResultPageSteps.i_should_get_a_list_of_jobs_with_town_preferences()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Jun 25, 2025 2:30:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jun 25, 2025 4:15:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
 ]]></system-err>
   </testcase>
-  <testcase name="Job search without Town value" classname="Job Search Page Feature" time="3.851">
+  <testcase name="Job search without Town value" classname="Job Search Page Feature" time="3.627">
     <system-out><![CDATA[
 @job_search
 Scenario: Job search without Town value                       &amp#27;[90m# src/test/resources/com.features/JobSearchPage.feature:24&amp#27;[0m
@@ -110,11 +109,11 @@ Browser value is : chrome
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI sort my search results with the newest Date Posted&amp#27;[0m    &amp#27;[90m# stepdefinitions.JobSearchResultPageSteps.i_sort_my_search_results_with_the_newest_Date_Posted()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should get a list of jobs with Job Title preferences&amp#27;[0m &amp#27;[90m# stepdefinitions.JobSearchResultPageSteps.i_should_get_a_list_of_jobs_with_job_title_preferences()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Jun 25, 2025 2:30:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jun 25, 2025 4:15:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
 ]]></system-err>
   </testcase>
-  <testcase name="Job search without passing any filter value" classname="Job Search Page Feature" time="3.521">
+  <testcase name="Job search without passing any filter value" classname="Job Search Page Feature" time="3.373">
     <system-out><![CDATA[
 @job_search
 Scenario: Job search without passing any filter value      &amp#27;[90m# src/test/resources/com.features/JobSearchPage.feature:34&amp#27;[0m
@@ -124,11 +123,11 @@ Browser value is : chrome
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI sort my search results with the newest Date Posted&amp#27;[0m &amp#27;[90m# stepdefinitions.JobSearchResultPageSteps.i_sort_my_search_results_with_the_newest_Date_Posted()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should get a list of jobs&amp#27;[0m                         &amp#27;[90m# stepdefinitions.JobSearchResultPageSteps.i_should_get_a_list_of_jobs()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Jun 25, 2025 2:30:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jun 25, 2025 4:15:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
 ]]></system-err>
   </testcase>
-  <testcase name="Job search with invalid job title #1" classname="Job Search Page Feature" time="4.289">
+  <testcase name="Job search with invalid job title #1" classname="Job Search Page Feature" time="3.17">
     <system-out><![CDATA[
 @job_search
 Scenario: Job search with invalid job title  &amp#27;[90m# src/test/resources/com.features/JobSearchPage.feature:41&amp#27;[0m
@@ -139,11 +138,11 @@ Browser value is : chrome
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI clicks on Search button&amp#27;[0m              &amp#27;[90m# stepdefinitions.JobSearchPageSteps.i_clicks_on_search_button()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should get No result found message&amp#27;[0m  &amp#27;[90m# stepdefinitions.JobSearchResultPageSteps.i_should_get_no_result_found_message()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Jun 25, 2025 2:30:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jun 25, 2025 4:15:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
 ]]></system-err>
   </testcase>
-  <testcase name="Job search with invalid job title #2" classname="Job Search Page Feature" time="3.479">
+  <testcase name="Job search with invalid job title #2" classname="Job Search Page Feature" time="3.283">
     <system-out><![CDATA[
 @job_search
 Scenario: Job search with invalid job title    &amp#27;[90m# src/test/resources/com.features/JobSearchPage.feature:49&amp#27;[0m
@@ -154,7 +153,7 @@ Browser value is : chrome
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI clicks on Search button&amp#27;[0m                &amp#27;[90m# stepdefinitions.JobSearchPageSteps.i_clicks_on_search_button()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should get Location not found message&amp#27;[0m &amp#27;[90m# stepdefinitions.JobSearchResultPageSteps.i_should_get_location_not_found_message()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Jun 25, 2025 2:30:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jun 25, 2025 4:15:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
 ]]></system-err>
   </testcase>
