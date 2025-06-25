@@ -33,9 +33,14 @@ public class JobSearchResultPageSteps {
 		Assert.assertTrue(commonUtils.areAllNumbersLessThan(jobSearchResultPage.getSearchResultDistance(), 5));
 	}
 	
-	@And("I sort my search results with the newest Date Posted")
-	public void i_sort_my_search_results_with_the_newest_Date_Posted() throws ParseException {
-		jobSearchResultPage.getSortByNewestDatePosted();
+	@And("I sort my search results with {string}")
+	public void i_sort_my_search_results_with_the_newest_Date_Posted(String sortByValue) {
+		jobSearchResultPage.getSortByNewestDatePosted(sortByValue);
+		
+	}
+	
+	@Then("I should get sorted list of jobs which matches my preference")
+	public void i_should_get_sorted_list_of_jobs_which_matches_my_preference() throws ParseException {
 		Assert.assertTrue(commonUtils.isSortedByNewest(jobSearchResultPage.getSearchResultPulicationDate()));
 		
 	}

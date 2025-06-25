@@ -61,11 +61,12 @@ public class JobSearchResultPage {
 		return driver.findElement(searchResultHeadingText).getText();
 	}
 	
-	public void getSortByNewestDatePosted() {
+	public void getSortByNewestDatePosted(String sortByValue) {
 		driver.findElement(sortInput).click();
 		WebElement dropdownElement = driver.findElement(sortInput);
 		Select dropdown = new Select(dropdownElement);
-		dropdown.selectByValue("publicationDateDesc");	
+//		dropdown.selectByValue("publicationDateDesc");	
+		dropdown.selectByValue(sortByValue);	
 		
 	}
 	

@@ -7,8 +7,8 @@ Feature: Job Search Page Feature
     And I enters town "Newcastle Upon Tyne"
     And I clicks on Search button
     Then I should get a list of jobs which matches my preferences
-    And I sort my search results with the newest Date Posted
-    Then I should get a list of jobs which matches my preferences
+    And I sort my search results with "publicationDateDesc"
+    Then I should get sorted list of jobs which matches my preference
     
     
   Scenario: Job search without Job Title value
@@ -17,8 +17,8 @@ Feature: Job Search Page Feature
     And I enters town "Newcastle Upon Tyne"
     And I clicks on Search button
     Then I should get a list of jobs with town preferences
-    And I sort my search results with the newest Date Posted
-    Then I should get a list of jobs with town preferences
+    And I sort my search results with "publicationDateDesc"
+    Then I should get sorted list of jobs which matches my preference
     
     
   Scenario: Job search without Town value
@@ -27,14 +27,14 @@ Feature: Job Search Page Feature
     And I enters town ""
     And I clicks on Search button
     Then I should get a list of jobs with Job Title preferences
-    And I sort my search results with the newest Date Posted
-    Then I should get a list of jobs with Job Title preferences
+    And I sort my search results with "publicationDateDesc"
+    Then I should get sorted list of jobs which matches my preference
         
          
   Scenario: Job search without passing any filter value
     Given I am a jobseeker on NHS Jobs website
     When I clicks on Search button
-    And I sort my search results with the newest Date Posted
+    And I sort my search results with "publicationDateDesc"
     Then I should get a list of jobs
     
     
