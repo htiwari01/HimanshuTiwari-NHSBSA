@@ -17,6 +17,7 @@ public class JobSearchResultPageSteps {
 		String resultText = " jobs found for " +  jobSearchResultPage.getSearchJobTitleInput() +  " within 5 miles of " +  jobSearchResultPage.getLocationAttributeText();
 		Assert.assertTrue(jobSearchResultPage.getSearchResultText().contains(resultText));
 		Assert.assertTrue(commonUtils.areAllNumbersLessThan(jobSearchResultPage.getSearchResultDistance(), 5));
+		Assert.assertFalse(commonUtils.isSortedByNewest(jobSearchResultPage.getSearchResultPulicationDate()));
 	}
 	
 	@Then("I should get a list of jobs with town preferences")

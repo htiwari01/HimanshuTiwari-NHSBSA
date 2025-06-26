@@ -58,8 +58,8 @@ Feature: Job Search Page Feature
     #When I enters job title "Automation Engineer"
     #And I enters town "Gateshead"
     #And I clicks on Search button
-    #And I sort my search results with the newest Date Posted
-    #Then I should get a list of jobs which matches my preferences
+    #And I sort my search results with "publicationDateDesc"
+    #Then I should get sorted list of jobs which matches my preference
     #And I apply Full Time Working Pattern filter
     #And I clicks on Apply Filter button
     #Then I get a list of jobs which matches my preferences with full time filter
